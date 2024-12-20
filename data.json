@@ -1,0 +1,401 @@
+{
+  "cities": {
+    "Kolkata": {
+      "temperature": "30°C",
+      "description": "Partly Cloudy",
+      "humidity": "70%",
+      "wind_speed": "12 km/h",
+      "pressure": "1015 hPa"
+     
+    },
+    "Delhi": {
+      "temperature": "25°C",
+      "description": "Sunny",
+      "humidity": "40%",
+      "wind_speed": "8 km/h",
+      "pressure": "1010 hPa"
+      
+    },
+    "Mumbai": {
+      "temperature": "28°C",
+      "description": "Cloudy",
+      "humidity": "80%",
+      "wind_speed": "15 km/h",
+      "pressure": "1012 hPa"
+      
+    },
+    "Chennai": {
+      "temperature": "32°C",
+      "description": "Clear Sky",
+      "humidity": "75%",
+      "wind_speed": "10 km/h",
+      "pressure": "1013 hPa"
+      
+    },
+    "Bangalore": {
+      "temperature": "24°C",
+      "description": "Mild",
+      "humidity": "60%",
+      "wind_speed": "12 km/h",
+      "pressure": "1014 hPa"
+      
+    },
+    "Hyderabad": {
+      "temperature": "27°C",
+      "description": "Partly Cloudy",
+      "humidity": "65%",
+      "wind_speed": "13 km/h",
+      "pressure": "1016 hPa"
+    },
+    "Pune": {
+      "temperature": "26°C",
+      "description": "Clear Sky",
+      "humidity": "55%",
+      "wind_speed": "9 km/h",
+      "pressure": "1015 hPa"
+    },
+    "Ahmedabad": {
+      "temperature": "29°C",
+      "description": "Sunny",
+      "humidity": "50%",
+      "wind_speed": "14 km/h",
+      "pressure": "1011 hPa"
+    },
+    "Surat": {
+      "temperature": "31°C",
+      "description": "Cloudy",
+      "humidity": "78%",
+      "wind_speed": "11 km/h",
+      "pressure": "1012 hPa"
+    },
+    "Jaipur": {
+      "temperature": "26°C",
+      "description": "Sunny",
+      "humidity": "35%",
+      "wind_speed": "10 km/h",
+      "pressure": "1010 hPa"
+    },
+    "Lucknow": {
+      "temperature": "23°C",
+      "description": "Clear Sky",
+      "humidity": "50%",
+      "wind_speed": "9 km/h",
+      "pressure": "1012 hPa"
+    },
+    "Kanpur": {
+      "temperature": "28°C",
+      "description": "Partly Cloudy",
+      "humidity": "60%",
+      "wind_speed": "12 km/h",
+      "pressure": "1013 hPa"
+    },
+    "Patna": {
+      "temperature": "29°C",
+      "description": "Mild",
+      "humidity": "72%",
+      "wind_speed": "10 km/h",
+      "pressure": "1014 hPa"
+    },
+    "Indore": {
+      "temperature": "27°C",
+      "description": "Clear Sky",
+      "humidity": "55%",
+      "wind_speed": "11 km/h",
+      "pressure": "1011 hPa"
+    },
+    "Vadodara": {
+      "temperature": "30°C",
+      "description": "Sunny",
+      "humidity": "68%",
+      "wind_speed": "13 km/h",
+      "pressure": "1012 hPa"
+    },
+    "Bhopal": {
+      "temperature": "26°C",
+      "description": "Cloudy",
+      "humidity": "60%",
+      "wind_speed": "10 km/h",
+      "pressure": "1013 hPa"
+    },
+    "Nagpur": {
+      "temperature": "31°C",
+      "description": "Sunny",
+      "humidity": "50%",
+      "wind_speed": "14 km/h",
+      "pressure": "1012 hPa"
+    },
+    "Vijayawada": {
+      "temperature": "32°C",
+      "description": "Clear Sky",
+      "humidity": "70%",
+      "wind_speed": "12 km/h",
+      "pressure": "1013 hPa"
+    },
+    "Coimbatore": {
+      "temperature": "25°C",
+      "description": "Partly Cloudy",
+      "humidity": "65%",
+      "wind_speed": "10 km/h",
+      "pressure": "1015 hPa"
+    },
+    "Trichy": {
+      "temperature": "30°C",
+      "description": "Sunny",
+      "humidity": "80%",
+      "wind_speed": "8 km/h",
+      "pressure": "1014 hPa"
+    },
+    "Thiruvananthapuram": {
+      "temperature": "28°C",
+      "description": "Mild",
+      "humidity": "75%",
+      "wind_speed": "11 km/h",
+      "pressure": "1013 hPa"
+    },
+    "Mysore": {
+      "temperature": "27°C",
+      "description": "Cloudy",
+      "humidity": "62%",
+      "wind_speed": "12 km/h",
+      "pressure": "1012 hPa"
+    },
+    "Madurai": {
+      "temperature": "29°C",
+      "description": "Clear Sky",
+      "humidity": "60%",
+      "wind_speed": "13 km/h",
+      "pressure": "1011 hPa"
+    },
+    "Guwahati": {
+      "temperature": "23°C",
+      "description": "Rainy",
+      "humidity": "85%",
+      "wind_speed": "10 km/h",
+      "pressure": "1010 hPa"
+    },
+    "Nashik": {
+      "temperature": "26°C",
+      "description": "Partly Cloudy",
+      "humidity": "65%",
+      "wind_speed": "12 km/h",
+      "pressure": "1013 hPa"
+    },
+    "Jammu": {
+      "temperature": "20°C",
+      "description": "Clear Sky",
+      "humidity": "55%",
+      "wind_speed": "8 km/h",
+      "pressure": "1011 hPa"
+    },
+    "Shimla": {
+      "temperature": "15°C",
+      "description": "Clear Sky",
+      "humidity": "60%",
+      "wind_speed": "7 km/h",
+      "pressure": "1012 hPa"
+    },
+    "Udaipur": {
+      "temperature": "27°C",
+      "description": "Sunny",
+      "humidity": "55%",
+      "wind_speed": "9 km/h",
+      "pressure": "1013 hPa"
+    },
+    "Ranchi": {
+      "temperature": "22°C",
+      "description": "Mild",
+      "humidity": "70%",
+      "wind_speed": "10 km/h",
+      "pressure": "1014 hPa"
+    },
+    "Bhubaneswar": {
+      "temperature": "28°C",
+      "description": "Cloudy",
+      "humidity": "72%",
+      "wind_speed": "11 km/h",
+      "pressure": "1012 hPa"
+    },
+    "Raipur": {
+      "temperature": "29°C",
+      "description": "Clear Sky",
+      "humidity": "68%",
+      "wind_speed": "12 km/h",
+      "pressure": "1014 hPa"
+    },
+    "Durgapur": {
+      "temperature": "30°C",
+      "description": "Sunny",
+      "humidity": "75%",
+      "wind_speed": "8 km/h",
+      "pressure": "1015 hPa"
+    },
+    "Kochi": {
+      "temperature": "28°C",
+      "description": "Partly Cloudy",
+      "humidity": "80%",
+      "wind_speed": "14 km/h",
+      "pressure": "1013 hPa"
+    },
+    "Agra": {
+      "temperature": "26°C",
+      "description": "Clear Sky",
+      "humidity": "45%",
+      "wind_speed": "9 km/h",
+      "pressure": "1011 hPa"
+    },
+    "Jodhpur": {
+      "temperature": "29°C",
+      "description": "Sunny",
+      "humidity": "50%",
+      "wind_speed": "12 km/h",
+      "pressure": "1014 hPa"
+    },
+    "Gwalior": {
+      "temperature": "24°C",
+      "description": "Cloudy",
+      "humidity": "60%",
+      "wind_speed": "8 km/h",
+      "pressure": "1010 hPa"
+    },
+    "Chandigarh": {
+      "temperature": "27°C",
+      "description": "Clear Sky",
+      "humidity": "58%",
+      "wind_speed": "10 km/h",
+      "pressure": "1013 hPa"
+    },
+    "Dehradun": {
+      "temperature": "23°C",
+      "description": "Partly Cloudy",
+      "humidity": "65%",
+      "wind_speed": "7 km/h",
+      "pressure": "1012 hPa"
+    },
+    "Noida": {
+      "temperature": "26°C",
+      "description": "Mild",
+      "humidity": "50%",
+      "wind_speed": "9 km/h",
+      "pressure": "1011 hPa"
+    },
+    "Faridabad": {
+      "temperature": "27°C",
+      "description": "Clear Sky",
+      "humidity": "52%",
+      "wind_speed": "8 km/h",
+      "pressure": "1012 hPa"
+    },
+    "Gurgaon": {
+      "temperature": "25°C",
+      "description": "Sunny",
+      "humidity": "45%",
+      "wind_speed": "10 km/h",
+      "pressure": "1013 hPa"
+    },
+    "Amritsar": {
+      "temperature": "24°C",
+      "description": "Partly Cloudy",
+      "humidity": "50%",
+      "wind_speed": "11 km/h",
+      "pressure": "1012 hPa"
+    },
+    "Varanasi": {
+      "temperature": "29°C",
+      "description": "Cloudy",
+      "humidity": "65%",
+      "wind_speed": "10 km/h",
+      "pressure": "1013 hPa"
+    },
+    "Meerut": {
+      "temperature": "27°C",
+      "description": "Mild",
+      "humidity": "55%",
+      "wind_speed": "9 km/h",
+      "pressure": "1011 hPa"
+    },
+    "Aligarh": {
+      "temperature": "28°C",
+      "description": "Clear Sky",
+      "humidity": "50%",
+      "wind_speed": "12 km/h",
+      "pressure": "1010 hPa"
+    },
+    "Kota": {
+      "temperature": "30°C",
+      "description": "Sunny",
+      "humidity": "58%",
+      "wind_speed": "10 km/h",
+      "pressure": "1014 hPa"
+    },
+    "Agartala": {
+      "temperature": "25°C",
+      "description": "Cloudy",
+      "humidity": "75%",
+      "wind_speed": "10 km/h",
+      "pressure": "1013 hPa"
+    },
+    "Silchar": {
+      "temperature": "27°C",
+      "description": "Rainy",
+      "humidity": "80%",
+      "wind_speed": "14 km/h",
+      "pressure": "1012 hPa"
+    },
+    "Imphal": {
+      "temperature": "22°C",
+      "description": "Clear Sky",
+      "humidity": "65%",
+      "wind_speed": "9 km/h",
+      "pressure": "1011 hPa"
+    },
+    "Itanagar": {
+      "temperature": "24°C",
+      "description": "Cloudy",
+      "humidity": "72%",
+      "wind_speed": "8 km/h",
+      "pressure": "1013 hPa"
+    },
+    "Mangalore": {
+      "temperature": "28°C",
+      "description": "Partly Cloudy",
+      "humidity": "80%",
+      "wind_speed": "12 km/h",
+      "pressure": "1014 hPa"
+    },
+    "Rourkela": {
+      "temperature": "27°C",
+      "description": "Sunny",
+      "humidity": "75%",
+      "wind_speed": "10 km/h",
+      "pressure": "1013 hPa"
+    },
+    "Belgaum": {
+      "temperature": "24°C",
+      "description": "Clear Sky",
+      "humidity": "60%",
+      "wind_speed": "10 km/h",
+      "pressure": "1011 hPa"
+    },
+    "Siliguri": {
+      "temperature": "22°C",
+      "description": "Mild",
+      "humidity": "70%",
+      "wind_speed": "9 km/h",
+      "pressure": "1012 hPa"
+    },
+    "Jalandhar": {
+      "temperature": "26°C",
+      "description": "Partly Cloudy",
+      "humidity": "55%",
+      "wind_speed": "8 km/h",
+      "pressure": "1010 hPa"
+    },
+    "Bhubaneshwar": {
+      "temperature": "28°C",
+      "description": "Cloudy",
+      "humidity": "72%",
+      "wind_speed": "12 km/h",
+      "pressure": "1011 hPa"
+    }
+  }
+}

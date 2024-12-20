@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weathere Forcast</title>
+        <link rel="stylesheet" href="header style/style1.css">
+        <link rel="stylesheet" href="header style/style.css">
+        <link rel="images">
+        <script src="data.json"></script>
+        
+    </head>
+    <body bgcolor="black">
+       
+        <div id="top">
+            <header class="header"> 
+                
+                    
+                    <div class="left_head">
+                        Weather forecast
+                    </div>
+                    
+                    <div class="search-container">
+                        <input type="text" class="search-bar"  id="city-input" placeholder="Enter city" />
+                        <button id="search-button" class="search-button">search</button>
+                    
+                    </div>
+
+                    <div class="navigation">
+
+                        <button class="weather_detaile" onclick="window.location.href='#extra';">Weather Details</button>
+                        
+                        <button class="Aboutbut" onclick="window.location.href='#abo';">About</button>
+                        <button class="linksbut" onclick="window.location.href='#link';">links</button>
+
+                    </div>   
+            </header>
+        </div>
+
+       
+       
+       
+        <div class="waste"></div>   
+       
+        <div class="wethere-part" style="padding-top: 50px;">
+            
+           
+            <div class="time-dependent-image">
+                <p class="just-image">Time Dependent Image</p>
+                <img id="timeImage" alt="Time of day image" width="300">
+            
+                <script src="script.js"></script>
+                
+                <script>
+                    
+                    let hour = new Date().getHours();  
+                    let imageUrl;
+            
+                    if (hour < 12) {
+                        imageUrl = "https://clipground.com/images/in-the-morning-sky-clipart-5.jpg";  
+                    } else if (hour < 16) {
+                        imageUrl = "https://static.vecteezy.com/system/resources/previews/000/551/147/original/vector-cartoon-sun.jpg"
+                    } else  if(hour<19) {
+                        imageUrl ="https://tse2.mm.bing.net/th?id=OIP.tE_srrE4jv-XamPi42M1OAHaFj&pid=Api&P=0&h=180"
+                    }
+                    else if (19<hour<6){
+                        imageUrl="https://static.vecteezy.com/system/resources/previews/014/992/122/original/night-cartoon-sky-with-clouds-full-moon-moonlight-and-stars-background-design-free-vector.jpg"
+                    }
+            
+                    
+                    document.getElementById("timeImage").src = imageUrl;
+                </script>
+            </div>
+            
+           <div>
+            
+            <p id="error-message" style="display:none;" ></p>
+            <p class="extra" id="extra">Weather Data</p>
+            <!-- Weather Data -->
+            <div id="weather-data"  class="weather-data">
+                <p id="extra"></p>
+              <h2 id="city-name"></h2>
+              <p id="date"></p>
+              <p id="temperature"></p>
+              <p id="description"></p>
+              <p id="humidity"></p>
+              <p id="wind-speed"></p>
+              <p id="pressure"></p>
+            </div>
+           </div>    
+            
+        </div>
+       
+       
+   
+       
+        <div class="About" id="abo">
+             
+            <div class="about-tital">
+             About
+            </div>
+            
+            <div class="about-bottom">   
+                
+                    <div class="image-about">
+                        <img src="image/wethere.png"  width="200px" height="150px">
+                    </div>
+                
+                    
+                    <div class="about-text">
+                        <p>Welcome to Weather Forcast.com, your reliable source for accurate and up-to-date weather forecasts and insights. Our mission is to provide you with the information you need to plan your day, week, or any special event with confidence.<br>
+                            <br>
+                        With Weather Forcast.com, you can:
+                            <br>
+                        Access real-time weather updates for your location and cities worldwide.<br>
+                        Stay informed with hourly, daily, and long-term forecasts.<br>
+                        Track severe weather alerts and advisories to stay safe.<br>
+                        Explore interactive radar maps and detailed climate data.<br>
+                        We leverage cutting-edge technology and trusted meteorological data sources to ensure precision and reliability. Whether you're planning a trip, organizing an outdoor activity, or just curious about the weather, we've got you covered.<br>
+                            <br>
+                        Thank you for choosing Weather Forcast.com—your companion for all things weather!<br>
+                        </p>
+
+                    </div>
+ 
+           </div>
+
+        </div>
+
+       <!--waste section--> 
+        
+
+        <div id="link">
+            <footer class="footer" >
+                    <div class="top-footer">   
+                        <div class="left-footer">
+                            <div>
+                                <img src="image/logo.png" width="80px" height="80px">
+                            </div>
+
+                            <div>
+                                <button class="Github">
+                                    <a href="https://www.google.com/"   target="_blank" class="b1">Github</a>
+                                </button>
+
+                            </div>
+                            <div>
+                                <button class="LinkedIn">
+                                    <a href="https://www.google.com/"   target="_blank" class="b2">LinkedIn</a>
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <div class="right-footer">
+                            <button class="terms">
+                                <a href="https://www.google.com/"   target="_blank" class="b3">Terms and Conditions</a>
+                            </button>
+                            <button class="Privacy">
+                                <a href="https://www.google.com/"   target="_blank" class="b4">Privacy Policy</a>
+                            </button>
+                            <button class="Copyright">
+                                <a href="https://www.google.com/"   target="_blank" class="b5">Copyright Information</a>
+                            </button>
+                        </div>
+                        
+                    </div> 
+
+                    <div class="buttom-footer">
+                        <div>© Copyright 2024, All Rights Reserved  |  Shrirang</div>
+                            
+                        <div class="h1" style="align-items: center;">
+                            <button class="up" onclick="window.location.href='#top';">up</button>
+                        </div>
+                    </div>
+
+            </footer>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
